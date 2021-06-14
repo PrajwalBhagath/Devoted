@@ -2,6 +2,10 @@
     display: flex;
 }
 
+body{
+    font-family: 'Nixie One', cursive;
+}
+
 .logo-wrapper{
     display: block; 
     text-align: center;
@@ -21,17 +25,61 @@
     /* display: block; */
     text-align: center;
 }
-.tabs-wrapper{
-    /* display: block; */
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li{
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
 
-.tabs-wrapper a{
+nav ul li a{
     color: #8a8a8a;
     text-decoration: aquamarine;
     transition: color 0.5s;
 }
 
+nav ul li :hover{
+    border-bottom: 1px solid #6b3d16;
+    color: #6b3d16;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.page-home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 30px;
+
+}
+
+.col-2{
+    max-width: 100%;
+    padding: 50px 0;
+}
 
