@@ -1,0 +1,37 @@
+.top-navigation{
+    display: flex;
+}
+
+.logo-wrapper{
+    display: block; 
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: 45%; */
+    /* align-content: center; */
+    /* align-self: center; */
+} 
+
+.navigators{
+    display: block;
+    text-align: center;
+}
+
+.tabs{
+    /* display: block; */
+    /* display: block; */
+    text-align: center;
+}
+.tabs-wrapper{
+    /* display: block; */
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.tabs-wrapper a{
+    color: #8a8a8a;
+    text-decoration: aquamarine;
+    transition: color 0.5s;
+}
+
+
