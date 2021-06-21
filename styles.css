@@ -32,12 +32,13 @@ nav{
 }
 
 nav ul{
-    display: inline-block;
+    display: inline-flex;
     list-style-type: none;
+    min-width: 60%;
 }
 
 nav ul li{
-    display: inline-block;
+    display: inline-flex;
     margin-right: 20px;
 }
 
@@ -56,6 +57,7 @@ nav ul li a{
 nav ul li :hover{
     border-bottom: 1px solid #6b3d16;
     color: #6b3d16;
+    
 }
 
 .container{
@@ -83,3 +85,38 @@ nav ul li :hover{
     padding: 50px 0;
 }
 
+.auth{
+    display: inline-flex;
+    margin-left: 20%;
+}
+
+.input{
+text-align: center;
+}
+.input input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: transparent;
+    border-color: rgb(61, 59, 59) thin;
+    border-width: thin;
+    min-width: 35%;
+    min-height: 10%;
+    border-radius: 5pt;
+    font-size: 20px;
+    font-family: 'Nixie One', cursive;
+}
+
+.input input::placeholder{
+    font-family: 'Nixie One', cursive;
+    font-size: 20px;
+}
+
+.input button{
+    margin-top: 10pt;
+    background-color: #e4bda9;
+    min-width: 10em;
+    border-radius: 20pt;
+    min-height: 20pt;
+    border-color: transparent;
+}
