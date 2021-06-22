@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,57 +8,34 @@
     <link rel="stylesheet" href="styles.css">
     <title>DEVOTED SCENTS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
-</head>
-<body style="background-color: #fdf3ee;">
-            <!-- Tabs to navigate between pages -->
-    <div class="container">
-        <span class="logo-wrapper">
-            <a href="index.html">
-           <img src="./photos/Devoted-Logo.jpg" width="120" height="120">
-            </a>
-        </span>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
 
-        <div class="left-tabs-container">
-          
-            <div class="tabs">
-                <nav>
-                <ul>
-                    <li>
-                    <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                    <a href="./Main Pages/about.html">About</a>
-                    </li>
-                    <li>
-                    <a href="./Main Pages/products.html">Products</a>
-                    </li>
-                </ul>
-                <div class="auth">
-                    <nav>
-                        <ul>
-                            <li><a href="./Auth/signUp.html">
-                                Signup
-                            </a></li>
-                            <li><a href="./Auth/login.html">
-                                Login
-                            </a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        intxegrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+
+<script> 
+    $(function(){
+      $("#header").load("head-foot.html"); 
+    });
+    </script> 
+</head>
+
+<body style="background-color: #fdf3ee;">
+    <div id="header"></div>
+    
         <div class="page-home">
             <div class="col-2">
                 <h1>You can't cant buy<br>
-                HAPPINESS<br>
-                But you can buy CANDLES! </h1>
+                    HAPPINESS<br>
+                    But you can buy CANDLES! </h1>
                 <p>Shop our products TODAY!</p>
             </div>
             <div class="col-2">
                 <img src="./photos/Vanilla .jpg" width="500" height="500">
             </div>
         </div>
-     </div>
+    </div>
 </body>
+
 </html>

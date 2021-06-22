@@ -1,53 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".././styles.css">
-    <title>What do we sell?</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
-</head>
-<body style="background-color: #fdf3ee;">
-            <!-- Tabs to navigate between pages -->
-    <div class="container">
-        <span class="logo-wrapper">
-            <a href="index.html">
-           <img src="../photos/Devoted-Logo.jpg" width="120" height="120">
-           </a>
-        </span>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href=".././styles.css">
+        <title>What do we sell?</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
 
-        <div class="left-tabs-container">
-          
-            <div class="tabs">
-                <nav>
-                <ul>
-                    <li>
-                    <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                    <a href="about.html">About</a>
-                    </li>
-                    <li>
-                    <a href="products.html">Products</a>
-                    </li>
-                </ul>
-                <div class="auth">
-                    <nav>
-                        <ul>
-                            <li><a href="../Auth/signUp.html">
-                                Signup
-                            </a></li>
-                            <li><a href="../Auth/login.html">
-                                Login
-                            </a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            </div>
-        <div class="page-home">
+    <script>
+        $(function () {
+            $("#header").load("../head-foot.html");
+        });
+    </script>
+</head>
+
+<body style="background-color: #fdf3ee;">
+    <div id="header"></div>
+            <div class="page-home">
             <div class="col-2">
                 <img src="../photos/Caramel popcorn.jpeg" width="600" height="500">
             </div>
@@ -58,6 +34,7 @@
             </div>
 
         </div>
-     </div>
+    </div>
 </body>
+
 </html>
